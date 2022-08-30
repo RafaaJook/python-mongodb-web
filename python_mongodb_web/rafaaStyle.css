@@ -1,3 +1,35 @@
-.Tabel-flask {
-    background-color: gray(0);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14pt;
+    font-family: 'arial', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+}
+.tabela {
+    display: block;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+.tabela thead {
+    background-color: green;
+}
+.tabela th,
+.tabela td {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    max-width: 150px;
 }
